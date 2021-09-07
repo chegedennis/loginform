@@ -1,0 +1,53 @@
+body {
+  background: url(img.jpg);
+  font-family: serif;
+  color: #fff;
+}
+
+.container {
+  position: absolute;
+  width: 380px;
+  height: 500px;
+  background: url(winter.jpg);
+  padding: 20px;
+  border-radius: 20px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgba(43, 253, 43, 0.767);
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+
+p {
+  font-size: 30px;
+}
+
+.input {
+  font-size: 25px;
+  color: #fff;
+  border: none;
+  margin-bottom: 20px;
+  background: transparent;
+  outline: none;
+}
+
+.submit {
+  width: 80%;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  margin: 20px 40px;
+  background: red;
+  color: #fff;
+  font-size: 20px;
+}
+
+.submit:hover {
+  background: orange;
+  cursor: pointer;
+}
